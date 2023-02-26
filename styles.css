@@ -1,0 +1,151 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+    font-size: 1.39rem;
+}
+
+span {
+    padding-left: 80px;
+}
+
+.o {
+    padding-left: 100px;
+}
+
+img {
+    padding: 0 10px;
+}
+
+.container {
+    max-width: 350px;
+    max-height: 480px;
+    background: linear-gradient(180deg, hsla(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container > h2 {
+    margin-top: 25px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.container > p {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+    width: 70%;
+}
+
+.circle {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle > h2 {
+    font-size: 4.3em;
+    font-weight: 700;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle > p {
+    color: hsl(241, 100%, 89%);
+    margin: 0;
+}
+
+.container2 {
+    width: 400px;
+    height: 470px;
+    border-radius: 20px;
+    margin-left: -4%;
+    box-shadow: 5px 5px hsl(224, 30%, 27%, 0.05);
+}
+
+.content {
+    padding-left: 25%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > h2 {
+    font-size: 1.39rem;
+    margin: 30px 0;
+}
+
+.reaction {
+    display: inline-flex;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.09);
+}
+
+.memory {
+    display: inline-flex;
+    border-radius: 10px;
+    margin-bottom: 15px;  
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.09);
+}
+
+.verbal {
+    display: inline-flex;
+    border-radius: 10px;
+    margin-bottom: 15px;  
+    color: hsl(166, 100%, 37%); 
+    background-color: hsl(166, 100%, 37%, 0.09); 
+}
+
+.visual {
+    display: inline-flex;
+    border-radius: 10px;
+    margin-bottom: 15px; 
+    color: hsl(234, 85%, 45%); 
+    background-color: hsl(234, 85%, 45%, 0.09);    
+}
+
+.button {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    padding: 13px 0;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.attribution {
+    margin-top: -150px;
+}
